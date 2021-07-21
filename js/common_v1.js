@@ -414,7 +414,6 @@ $(document).ready(function(){
                 thousandSeparator: "",
                 duration: 3000
             });
-			console.log('asd');
             show = false;
         }
     });

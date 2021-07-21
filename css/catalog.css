@@ -1503,3 +1503,7 @@ html {
 .open-popup {
   cursor: pointer;
 }
+
+.why-tabs-section {
+  overflow-y: hidden;
+}
