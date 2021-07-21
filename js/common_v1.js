@@ -837,11 +837,11 @@ $(document).ready(function(){
 	}
 
 	if (document.documentElement.clientWidth<576) {
-		$('.tab-image').find('.img-3').attr('src', 'img/mob-tab-img-2.png');
-		$('.tab-image').find('.img-2').attr('src', 'img/mob-tab-img-4.png');
-		$('.tab-image').find('.img-4').attr('src', 'img/mob-tab-img-3.png');
-		$('.tab-image').find('.img-5').attr('src', 'img/mob-tab-img-5.png');
-		$('.tab-image').find('.img-6').attr('src', 'img/mob-tab-img-6.png');
+		$('.tab-image').find('.img-3').attr('src', 'img/tab-image-2.png');
+		$('.tab-image').find('.img-2').attr('src', 'img/tab-image-4.png');
+		$('.tab-image').find('.img-4').attr('src', 'img/tab-image-3.png');
+		$('.tab-image').find('.img-5').attr('src', 'img/tab-image-5.png');
+		$('.tab-image').find('.img-6').attr('src', 'img/tab-image-6.png');
     $('.img-3-hid').hide();
     $('.img-2-hid').hide();
 		$('.advantages-tab-content .testimonials-items .btn-area').remove();
