@@ -34,23 +34,6 @@ $(document).ready(function(){
                 required: 'Заполните телефон'
             }
         },
-        submitHandler: function(form) {
-            var th = $(form);
-            $.ajax({
-                type: "POST",
-                url: "mails.php", //Change
-                data: th.serialize()
-            }).done(function() {
-            	//document.location.href='thanks.html'
-            	document.location.href='thank.html';
-               /* $('.done-block').addClass('vis');
-                setTimeout(function(){
-                	$('.done-block').removeClass('vis');
-                },3000);
-                th.trigger("reset");*/
-            });
-            return false;
-        }
     });
 
 	$(".char-form2").validate({
@@ -65,23 +48,6 @@ $(document).ready(function(){
                 required: 'Заполните телефон'
             }
         },
-        submitHandler: function(form) {
-            var th = $(form);
-            $.ajax({
-                type: "POST",
-                url: "mails.php", //Change
-                data: th.serialize()
-            }).done(function() {
-            	//document.location.href='thanks.html'
-            	document.location.href='thank.html';
-               /* $('.done-block').addClass('vis');
-                setTimeout(function(){
-                	$('.done-block').removeClass('vis');
-                },3000);
-                th.trigger("reset");*/
-            });
-            return false;
-        }
     });
 	$(".char-form3").validate({
 		focusInvalid: false,
@@ -95,23 +61,6 @@ $(document).ready(function(){
                 required: 'Заполните телефон'
             }
         },
-        submitHandler: function(form) {
-            var th = $(form);
-            $.ajax({
-                type: "POST",
-                url: "mails.php", //Change
-                data: th.serialize()
-            }).done(function() {
-            	//document.location.href='thanks.html'
-            	document.location.href='thank.html';
-               /* $('.done-block').addClass('vis');
-                setTimeout(function(){
-                	$('.done-block').removeClass('vis');
-                },3000);
-                th.trigger("reset");*/
-            });
-            return false;
-        }
     });
 
 /*
@@ -571,22 +520,6 @@ $(document).ready(function(){
                 required: 'Заполните телефон'
             }
         },
-        submitHandler: function(form) {
-            var th = $(form);
-            $.ajax({
-                type: "POST",
-                url: "mails.php", //Change
-                data: th.serialize()
-            }).done(function() {
-            	document.location.href='thank.html'
-              /*  $('.done-block').addClass('vis');
-                setTimeout(function(){
-                	$('.done-block').removeClass('vis');
-                },3000);
-                th.trigger("reset");*/
-            });
-            return false;
-        }
     });
 
     $(".formm").validate({
@@ -601,23 +534,6 @@ $(document).ready(function(){
                 required: 'Заполните телефон'
             }
         },
-        submitHandler: function(form) {
-            var th = $(form);
-            $.ajax({
-                type: "POST",
-                url: "mails.php", //Change
-                data: th.serialize()
-            }).done(function() {
-                $('.done-block').addClass('vis');
-                document.location.href='thank.html';
-                //document.location.href='thanks.html'
-                /*setTimeout(function(){
-                	$('.done-block').removeClass('vis');
-                },3000);
-                th.trigger("reset");*/
-            });
-            return false;
-        }
     });
     $(".forms").validate({
 		focusInvalid: false,
@@ -631,23 +547,6 @@ $(document).ready(function(){
                 required: 'Заполните телефон'
             }
         },
-        submitHandler: function(form) {
-            var th = $(form);
-            $.ajax({
-                type: "POST",
-                url: "mails.php", //Change
-                data: th.serialize()
-            }).done(function() {
-            	document.location.href='thank.html';
-            	//document.location.href='thanks.html'
-                /*$('.done-block').addClass('vis');
-                setTimeout(function(){
-                	$('.done-block').removeClass('vis');
-                },3000);
-                th.trigger("reset");*/
-            });
-            return false;
-        }
     });
     $(".forme").validate({
 		focusInvalid: false,
@@ -661,23 +560,6 @@ $(document).ready(function(){
                 required: 'Заполните телефон'
             }
         },
-        submitHandler: function(form) {
-            var th = $(form);
-            $.ajax({
-                type: "POST",
-                url: "mails.php", //Change
-                data: th.serialize()
-            }).done(function() {
-            	document.location.href='thank.html';
-            	//document.location.href='thanks.html'
-                /*$('.done-block').addClass('vis');
-                setTimeout(function(){
-                	$('.done-block').removeClass('vis');
-                },3000);
-                th.trigger("reset");*/
-            });
-            return false;
-        }
     });
     $(".former").validate({
 		focusInvalid: false,
@@ -691,23 +573,6 @@ $(document).ready(function(){
                 required: 'Заполните телефон'
             }
         },
-        submitHandler: function(form) {
-            var th = $(form);
-            $.ajax({
-                type: "POST",
-                url: "mails.php", //Change
-                data: th.serialize()
-            }).done(function() {
-            	document.location.href='thank.html';
-            	//document.location.href='thanks.html'
-                /*$('.done-block').addClass('vis');
-                setTimeout(function(){
-                	$('.done-block').removeClass('vis');
-                },3000);
-                th.trigger("reset");*/
-            });
-            return false;
-        }
     });
 
 
