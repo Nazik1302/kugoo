@@ -376,7 +376,11 @@ $(document).ready(function () {
           type: "POST",
           url: "https://send-msg-to-telegram.herokuapp.com/send",
           data: th.serialize(),
+          success: () => {
+            window.location.href = 'https://ukraine-kugoo-s3pro.com.ua/thanks';
+           }
         });
+
         return false;
       },
     });
